@@ -52,10 +52,14 @@ body{
 #ta{
     border-radius: 4px;
 }
-.butt{
+.buton{
     background-color:gray;
     color: white;
     border-radius: 5px;
     font-size: 20px;
     padding: 8px;
+}
+
+.buton:hover{
+    background-color: orange;
 }
