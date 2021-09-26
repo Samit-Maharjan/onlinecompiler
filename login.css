@@ -38,4 +38,12 @@ body {
     text-align: center;
     margin-bottom: 50px;
   }
-  
+  .backimg{
+    float: left;
+    
+  }
+  .backimg img{
+    height: auto;
+    width: 50%;
+    
+  }
