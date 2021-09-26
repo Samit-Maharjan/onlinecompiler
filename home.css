@@ -5,16 +5,20 @@ body{
 
 .nav_bar{
   width: 100%;
-  height: auto;
+  height: 10%;
   background-color: #3c3c3c;
   color: white;
   position: absolute;
 }
 
 .logo{
-  width: 10%;
+  width: auto;
+  height: 100%;
+}
+
+.nav_bar, .nav_btn{
+  display: inline;
 }
 .nav_btn{
-  padding: 10px;
-  padding-right: 15px;
+  padding-top: 10px;
 }
