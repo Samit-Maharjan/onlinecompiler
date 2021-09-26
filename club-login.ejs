@@ -1,0 +1,48 @@
+<%- include("partials/header", {title: "Club Login" }) %>
+  <% if(failure) { %>
+    <div class="alert alert-danger" role="alert">
+      <%= msg %>
+    </div>
+    <% } %>
+
+      <form class="login-form" action="/club-login" method="post">
+        <h1>Club Login</h1>
+
+        <div class="txtb">
+          <input name="cname" type="text" placeholder="Club Name" id="cname" />
+        </div>
+
+        <div class="txtb">
+          <input name="password" type="password" placeholder="Password" id="password" />
+        </div>
+
+        <div class="show-password">
+          <input type="checkbox" id="password-checkbox" name="password-checkbox" value="invisible" />
+          <label for="password-checkbox"> Show password</label><br />
+        </div>
+
+        <button type="login" class="btn btn-outline-light btn-lg btn-block login-btn">
+          Login
+        </button>
+
+        <div class="bottom-txt">
+          <div class="acc">
+            Don't have an account? <a href="/club-signup">Sign Up</a>
+          </div>
+          <div class="acc">
+            Login as student? <a href="/student-login">Student Login</a>
+          </div>
+        </div>
+      </form>
+
+      <script>
+        "#password-checkbox".click(function () {
+          if (this.prop("checked") === true) {
+            "#password".attr("type", "text");
+          } else {
+            "#password".attr("type", "password");
+          }
+        });
+      </script>
+
+      <%- include("partials/footer") %>
