@@ -41,6 +41,7 @@ body {
   .backimg{
     float: left;
     position: absolute;
+    z-index: 0;
     margin: 20px;
     padding: 20px;
   }
