@@ -40,10 +40,11 @@ body {
   }
   .backimg{
     float: left;
-    
+    position: absolute;
+    margin: 20px;
+    padding: 20px;
   }
   .backimg img{
     height: auto;
     width: 50%;
-    
   }
