@@ -99,4 +99,13 @@
     position: absolute;
     font-size: 0.8rem;
   }
+
+  .backimg img{
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    height: auto;
+    width: 50%;
+    position: absolute;
+  }
   
