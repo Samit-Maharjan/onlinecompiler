@@ -118,6 +118,10 @@ footer{
   margin-top: 4px;
 }
 
+.submit_btn:hover{
+  background-color: beige;
+  color: black;
+}
 .blog{
   border: 2px solid black;
   border-radius: 10px;
