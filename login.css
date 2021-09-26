@@ -38,14 +38,11 @@ body {
     text-align: center;
     margin-bottom: 50px;
   }
-  .backimg{
+  .backimg img{
     float: left;
-    position: absolute;
-    z-index: 0;
     margin: 20px;
     padding: 20px;
-  }
-  .backimg img{
     height: auto;
     width: 50%;
+    position: absolute;
   }
