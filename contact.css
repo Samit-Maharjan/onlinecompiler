@@ -1,3 +1,46 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav_bar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3c3c3c;
+}
+
+.nav_bar li{
+  float: left;
+}
+
+.nav_bar li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.nav_bar li a:hover{
+  color: black;
+  background-color: gray;
+}
+.logo li a{
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0;
+}
+.nav_bar img{
+  width: 117px;
+  height: 55px;
+}
+
 #con{
     color: white;
     text-align: center;
@@ -9,10 +52,14 @@
 #ta{
     border-radius: 4px;
 }
-.butt{
+.buton{
     background-color:gray;
     color: white;
     border-radius: 5px;
     font-size: 20px;
     padding: 8px;
+}
+
+.buton:hover{
+    background-color: orange;
 }
