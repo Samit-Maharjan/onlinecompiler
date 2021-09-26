@@ -98,6 +98,7 @@ footer{
   background-color: gray;
   font-family: monospace;
   font-size: 15px;
+  float: left;
 }
 .POTD a{
   text-align: center;
@@ -116,4 +117,29 @@ footer{
   cursor: pointer;
   padding: 10px 10px;
   margin-top: 4px;
+}
+
+.blog{
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  margin-top: 80px;
+  height: 50%;
+  width: 40%;
+  background-color: gray;
+  font-family: "Calibri";
+  font-size: 15px;
+  float: right;  
+}
+.blog h{
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+.blog a{
+  font-style: italic;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
 }
