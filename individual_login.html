@@ -1,10 +1,12 @@
-<%- include("partials/header", {title: "Student Login"}) %>
-
-    <% if(failure) { %>
-        <div class="alert alert-danger" role="alert">
-            <%= msg %>
-        </div>
-    <% } %>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="individual_login.css">
+</head>
+<body>
     <form class="login-form" action="/student-login" method="post">
         <h1>Student Login</h1>
     
@@ -29,5 +31,5 @@
         </div>
     </form>
 
-
-<%- include("partials/footer") %>
+</body>
+</html>

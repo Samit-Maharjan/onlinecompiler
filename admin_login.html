@@ -1,11 +1,13 @@
-<%- include("partials/header", {title: "Club Login" }) %>
-  <% if(failure) { %>
-    <div class="alert alert-danger" role="alert">
-      <%= msg %>
-    </div>
-    <% } %>
-
-      <form class="login-form" action="/club-login" method="post">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="admin_login.css">
+</head>
+<body>
+    <form class="login-form" action="/club-login" method="post">
         <h1>Club Login</h1>
 
         <div class="txtb">
@@ -34,15 +36,5 @@
           </div>
         </div>
       </form>
-
-      <script>
-        "#password-checkbox".click(function () {
-          if (this.prop("checked") === true) {
-            "#password".attr("type", "text");
-          } else {
-            "#password".attr("type", "password");
-          }
-        });
-      </script>
-
-      <%- include("partials/footer") %>
+</body>
+</html>
